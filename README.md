@@ -71,9 +71,9 @@ Follow these steps to quickly set up and run the ChatGPT Retrieval Plugin:
 9. Set the required environment variables:
 
    ```
-   export DATASTORE=<your_datastore>
-   export BEARER_TOKEN=<your_bearer_token>
-   export OPENAI_API_KEY=<your_openai_api_key>
+   export DATASTORE=pinecone
+   export BEARER_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4ODg4ODg4OCIsIm5hbWUiOiJUaG9tYXMgQ29ubGFuIiwiaWF0IjoxNTE2MjM5MDIyfQ.vX1xFoXsEH-LSDUJSNZTNUuQ1XAHrlLW_tINVi-HwDg
+   export OPENAI_API_KEY=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
 
    # Optional environment variables used when running Azure OpenAI
    export OPENAI_API_BASE=https://<AzureOpenAIName>.openai.azure.com/
@@ -87,9 +87,9 @@ Follow these steps to quickly set up and run the ChatGPT Retrieval Plugin:
    # Some of these are optional; read the provider's setup docs in /docs/providers for more information.
 
    # Pinecone
-   export PINECONE_API_KEY=<your_pinecone_api_key>
-   export PINECONE_ENVIRONMENT=<your_pinecone_environment>
-   export PINECONE_INDEX=<your_pinecone_index>
+   export PINECONE_API_KEY=26f22ba4-56a4-492b-800a-4ff206f1fe13
+   export PINECONE_ENVIRONMENT=asia-southeast1-gcp-free
+   export PINECONE_INDEX=ausbudget-plugin
 
    # Weaviate
    export WEAVIATE_URL=<your_weaviate_instance_url>
